@@ -1,7 +1,5 @@
 package org.dreambot.dbui;
 
-
-
 import org.dreambot.dbui.components.*;
 
 import javax.imageio.ImageIO;
@@ -10,10 +8,7 @@ import java.awt.*;
 import java.io.IOException;
 import java.net.URL;
 
-
 public class ScriptFrame extends DreamFrame {
-
-
 
     private DreamPanel body, content;
 
