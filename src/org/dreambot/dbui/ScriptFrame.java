@@ -28,6 +28,8 @@ public class ScriptFrame extends DreamFrame {
         content.setLayout(grid);
         content.add(new DreamLabel("Text input:"));
         content.add(new DreamTextField());
+        content.add(new DreamHintTextField("Example input"));
+        content.add(new DreamHintTextField("Input hint"));
         content.add(new DreamLabel("Checkbox:"));
         content.add(new DreamCheckBox());
         content.add(new DreamLabel("Button:"));
